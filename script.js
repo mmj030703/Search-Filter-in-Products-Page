@@ -248,12 +248,14 @@ const loadProducts = () => {
 
 const openFilters = () => {
     filters.style.right = "0%";
+    filters.style.display = "block";
     filterOpenButton.style.display = "none";
     filterCloseButton.style.display = "block";
 }
 
 const closeFilters = () => {
     filters.style.right = "-100%";
+    filters.style.display = "none";
     filterOpenButton.style.display = "block";
     filterCloseButton.style.display = "none";
 }
