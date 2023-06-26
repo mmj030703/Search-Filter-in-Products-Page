@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Search & Filter in Products Page</title>
+</head>
+
+<body>
+    <section class="products_page">
+        <header>
+            <div class="heading">Home / Products</div>
+            <button class="btn open_filter">Open Filter</button>
+            <button class="btn close_filter">Close Filter</button>
+        </header>
+        <main>
+            <div class="products_page_container">
+                <div class="filters">
+                    <input type="text" class="search" placeholder="Search...">
+                    <div class="brand_filter">
+                        <h3 class="heading">Brand</h3>
+                        <div class="brands">
+                            <p class="brand brand1">All</p>
+                            <p class="brand brand2">Apple</p>
+                            <p class="brand brand3">Tecno</p>
+                            <p class="brand brand4">Dell</p>
+                            <p class="brand brand5">Boat</p>
+                            <p class="brand brand6">OnePlus</p>
+                        </div>
+                    </div>
+                    <div class="type_filter">
+                        <h3>Types</h3>
+                        <div class="types">
+                            <div class="type">
+                                <input type="checkbox" id="smartphone">
+                                <label class="label" for="smartphone">SmartPhone</label>
+                            </div>
+                            <div class="type">
+                                <input type="checkbox" id="tablet">
+                                <label class="label" for="tablet">Tablet</label>
+                            </div>
+                            <div class="type">
+                                <input type="checkbox" id="laptop">
+                                <label class="label" for="laptop">Laptop</label>
+                            </div>
+                            <div class="type">
+                                <input type="checkbox" id="smartwatch">
+                                <label class="label" for="smartwatch">SmartWatch</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price_filter">
+                        <h3>Price</h3>
+                        <input class="price_range" type="range" min="1600" max="150000" value="150000" step="100">
+                        <p class="price_amount">Value : &#8377; 150000</p>
+                    </div>
+                </div>
+                <div class="products">
+                    <!--* Product Div Structure  -->
+                    <!-- <div class="product">
+                        <img class="img" src="./Images/product1.jpg" alt="">
+                        <div class="product_details">
+                            <h3>Tecno Spark 9</h3>
+                            <p>&#8377; 7499</p>
+                            <button class="buy_now">Buy Now</button>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="./script.js" defer></script>
+</body>
+
+</html>
