@@ -24,7 +24,7 @@ body {
     margin: 1.5em;
 }
 
-.products_page header button.btn {
+.products_page header .btn {
     font-size: 1.3rem;
     font-weight: bold;
     color: #222;
@@ -209,10 +209,10 @@ body {
     }
 
     body {
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
-    .products_page header button.open_filter {
+    .products_page header button.btn {
         display: block;
     }
 
@@ -226,10 +226,10 @@ body {
 
     .products_page_container .filters {
         position: absolute;
-        right: -100%;
+        right: 0;
         transition: all .4s ease;
-        border: 2px solid #222;
         border: none;
+        display: none;
         box-shadow: 0px 0px 10px #222;
     }
 }
